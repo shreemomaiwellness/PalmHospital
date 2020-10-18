@@ -1,0 +1,118 @@
+<html>
+<head>
+ 	<meta charset="UTF-8">
+    	<link rel="icon" type="image/ico" href="images/palm.ico" />
+    	<title>
+    		Lab Services
+    	</title>
+    
+    	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+
+	<div id="navbar">
+		<ul>
+			<li><a href="CONTACT-US.html">Contact US</a></li>
+			<li><a href="ABOUT-US.html">About US</a></li>
+			<li><a href="PAYMENT.html">Payment</a></li>
+			<li><a href="24X7 SERVICES.html">24X7 Services</a></li>
+			<li><a href="#" style="color:#0a7ecc;">Lab Services</a></li>
+			<li><a href="OUR-SPECIALITIES.html">Our Specialities</a></li>
+			<li><a href="OUR-SERVICES.html">Our Services</a></li>
+			<li><a onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Book   Appointment</a></li>
+			<li><a href="index.html">Home</a></li>
+			<img style="height:50px;width:100px;margin-left: 50px;margin-top: 2.2px;" src="images/PBCH-Logo.png">
+		</ul>
+	</div>
+
+	<div id="id01" class="modal" >
+
+
+  
+  <form class="modal-content animate" style="border-radius: 9px;">
+
+    <div class="container" style="border-radius: 9px;">
+          <h1>Appointment Form</h1>
+          <span style="margin-top: 136px;margin-right: 130px;" onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <label for="name"><b>Patient Name : </b></label>
+      <input type="text" placeholder="Enter Patient's Name" name="name" required>
+
+      <label for="email"><b>Email Id : </b></label>
+      <input type="Email" placeholder="Enter E-mail Id" name="email" required>
+
+        <label for="Contact No."><b>Contact No : </b></label>
+      <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+
+      <label for="Appointment type"><b>Appintment Type : </b></label>
+      <select for="Checkup" type="list">
+          <option value="Select Appointment Type">Select Appointment Type</option>
+          <option value="Dental">Dental</option>
+          <option value="ENT">ENT</option>
+          <option value="Gynecology and Obstetrics">Gynecology and Obstetrics</option>
+          <option value="General and Laparoscopic Surgeon">General and Laparoscopic Surgeon</option>
+          <option value="Medicine">Medicine</option>
+          <option value="Cardiology">Cardiology</option>
+          <option value="Neurosurgery">Neurosurgery</option>
+          <option value="Oral & Maxillofacial Surgery">Oral & Maxillofacial Surgery</option>
+          <option value="Orthopedics">Orthopedics</option>
+          <option value="Pediatrics and Neonatology">Pediatrics and Neonatology</option>
+          <option value="Physiotherapy">Physiotherapy</option>
+          <option value="Pathology">Pathology</option>
+          <option value="Plastic and Cosmetic Surgery">Plastic and Cosmetic Surgery</option>
+          <option value="Radiology">Radiology</option>
+          <option value="Urology">Urology</option>
+      </select>
+
+      <label for="Date"><b>Date : </b></label>
+      <input type="Date" placeholder="dd-mm-yyyy" name="date" required>
+        
+      <button type="submit" onclick="alert('We Will Send You Timing in your Mobile by Message shortly....')">Take Appointment</button>
+    </div>
+
+  </form>
+</div>
+
+
+	<div class="lab-main">
+		<h1 style="color:#0a7ecc;font-size: 40px;font-family: verdana;">LAB Services</h1>
+
+		<img  style="margin-right: auto;margin-left:460;height: 320px;width: 250px;" src="images/mix-LOGO.png">
+
+		<p style="font-size: 17px;font-family: verdana;">
+			This unit of hospital is a centrally located, fully loaded unit offering a range of diagnostic facilities backed by world renowned <strong>hi-tech investigative equipments for accurate & reliable results</strong> with patient friendly sample collection system.
+
+		</p>
+
+		<ul style="font-size: 17px;font-family: verdana;text-align: justify;">
+			<li>
+				<strong>Hematology & Clinical pathology:</strong> Blood cell count top of the line hematology analyzer, four channel coagulo-meter for full range of blood clotting assays, reflectance photometer for evaluation of urine test and for semen analysis.
+			</li>
+			
+			<li>
+				<strong>Clinical Biochemistry:</strong> A fully automated biochemistry analyzer for uncompromised reliability of all biochemical tests including enzymes, proteins and component fractions.
+			</li>
+			
+				<img style="margin-left: 390;border-radius: 3px;" src="images/lab1.jpeg">
+
+			<li>
+				<strong>Microbiology:</strong> An integrated system for blood and sterile body fluid culture with facility of culture for tuberculosis bacteria in the same assembly, Mini API system for identification of drug sensitivity.
+			</li>
+			
+			<li>
+				<strong>Immuno Assay Laboratory:</strong> Fully automated analyzer for hormones, infections markers, tumor markers & drug levels, Elisa reader along with programmable Elisa plate washer for coverage of full range of immuno assays.
+			</li>
+			
+			<li>
+				<strong>Histopathology and Cytopathology:</strong> Rapid reporting & early diagnosis of cancer by well equipped Cyto and Histo-pathology sections. Automatic tissue processor with microprocessor control unit for biopsy and surgical tissue examination.
+			</li>
+		</ul>
+	</div> 
+
+	<img style="margin-left:168;margin-right: auto;border-radius:3px;" src="images/lab2.jpg">
+
+	<div id="footer">
+		<p>&copy; Palm Multispeciality Hospital, New India Colony Road, Nikol(Ahmedabad) | Registration, OPD & Inquiry – 09909005385, 07922805500 | Emergency & Ambulance – 108 </p>
+	</div>	
+</body>
+</html>
