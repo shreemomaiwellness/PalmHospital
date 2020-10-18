@@ -1,0 +1,100 @@
+<html>
+<head>
+ 	<meta charset="UTF-8">
+    	<link rel="icon" type="image/ico" href="images/palm.ico" />
+    	<title>
+    		24X7 Services
+    	</title>
+    
+    	<link rel="stylesheet" href="css/index.css">
+    	<link rel="stylesheet" type="text/css" href="css/Font Awesome/regular.css">
+</head>
+<body>
+
+
+	<div id="navbar">
+		<ul>
+			<li><a href="CONTACT-US.html">Contact US</a></li>
+			<li><a href="ABOUT-US.html">About US</a></li>
+			<li><a href="PAYMENT.html">Payment</a></li>
+			<li><a href="#" style="color:#0a7ecc;">24X7 Services</a></li>
+			<li><a href="LAB-SERVICES.html">Lab Services</a></li>
+			<li><a href="OUR-SPECIALITIES.html">Our Specialities</a></li>
+			<li><a href="OUR-SERVICES.html">Our Services</a></li>
+			<li><a onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Book   Appointment</a></li>
+			<li><a href="index.html">Home</a></li>
+			<img style="height:50px;width:100px;margin-left: 50px;margin-top: 2.2px;" src="images/PBCH-Logo.png">
+		</ul>
+	</div>
+
+
+		<div id="id01" class="modal" >
+
+
+  
+  <form class="modal-content animate" style="border-radius: 9px;">
+
+    <div class="container" style="border-radius: 9px;">
+          <h1>Appointment Form</h1>
+          <span style="margin-top: 136px;margin-right: 130px;" onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <label for="name"><b>Patient Name : </b></label>
+      <input type="text" placeholder="Enter Patient's Name" name="name" required>
+
+      <label for="email"><b>Email Id : </b></label>
+      <input type="Email" placeholder="Enter E-mail Id" name="email" required>
+
+        <label for="Contact No."><b>Contact No : </b></label>
+      <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+
+      <label for="Appointment type"><b>Appintment Type : </b></label>
+      <select for="Checkup" type="list">
+          <option value="Select Appointment Type">Select Appointment Type</option>
+          <option value="Dental">Dental</option>
+          <option value="ENT">ENT</option>
+          <option value="Gynecology and Obstetrics">Gynecology and Obstetrics</option>
+          <option value="General and Laparoscopic Surgeon">General and Laparoscopic Surgeon</option>
+          <option value="Medicine">Medicine</option>
+          <option value="Cardiology">Cardiology</option>
+          <option value="Neurosurgery">Neurosurgery</option>
+          <option value="Oral & Maxillofacial Surgery">Oral & Maxillofacial Surgery</option>
+          <option value="Orthopedics">Orthopedics</option>
+          <option value="Pediatrics and Neonatology">Pediatrics and Neonatology</option>
+          <option value="Physiotherapy">Physiotherapy</option>
+          <option value="Pathology">Pathology</option>
+          <option value="Plastic and Cosmetic Surgery">Plastic and Cosmetic Surgery</option>
+          <option value="Radiology">Radiology</option>
+          <option value="Urology">Urology</option>
+      </select>
+
+      <label for="Date"><b>Date : </b></label>
+      <input type="Date" placeholder="dd-mm-yyyy" name="date" required>
+        
+      <button type="submit"  onclick="alert('We Will Send You Timing in your Mobile by Message shortly....')">Take Appointment</button>
+    </div>
+
+  </form>
+</div>
+
+
+	<div class="all-time-services-main">
+		<div class="all-time-image-container">
+			<img src="images/mix-LOGO.png">
+		</div>
+		<div class="all-time-text-container">
+			<h1 style="color:#0a7ecc;font-family: verdana;margin-left: 30px;">24X7 Services</h1>
+
+			<p style="font-family: verdana;font-size: 18px;text-align: justify;margin-left: 30px;margin-right: 490px;">
+				We are here 24 X 7 for handling any sort of emergency need. A trained officer gathers basic and critical information from you to provide you with immediate help. This officer may ask you for additional information in order to prepare the ambulance crew for the situation. Our officer communicates all the facts to the Emergency Staff to avoid any delays. In our quest to help our patients in the best possible way, we have immediate medical care at hand, ready, in case the need be. A team of highly specialized doctors is always on standby at the Hospital to ensure immediate attention to the patient. The Emergency Staff is constantly in contact with the doctor to keep the doctor posted about patient’s condition. This helps the doctor prepare and be ready to attend the patient as soon as the ambulance reaches the hospital.
+					<br><br>
+				You must know all the following services are 24 X 7 SERVICES:
+			</p>
+		</div>
+	</div>
+
+	<img style="margin-left: 120px;margin-top: -260px;" src="images/24X7.png">
+
+	<div id="footer">
+		<p>&copy; Palm Multispeciality Hospital, New India Colony Road, Nikol(Ahmedabad) | Registration, OPD & Inquiry – 09909005385, 07922805500 | Emergency & Ambulance – 108 </p>
+	</div>	
+</body>
+</html>

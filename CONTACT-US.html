@@ -1,0 +1,103 @@
+<html>
+<head>
+ 	<meta charset="UTF-8">
+    	<link rel="icon" type="image/ico" href="images/palm.ico" />
+    	<title>
+    		Contact US
+    	</title>
+    
+    	<link rel="stylesheet" href="css/index.css">
+    	<link rel="stylesheet" type="text/css" href="css/Font Awesome/regular.css">
+</head>
+<body>
+
+
+	<div id="navbar">
+		<ul>
+			<li><a href="#"  style="color:#0a7ecc;">Contact US</a></li>
+			<li><a href="ABOUT-US.html">About US</a></li>
+			<li><a href="PAYMENT.html">Payment</a></li>
+			<li><a href="24X7 SERVICES.html">24X7 Services</a></li>
+			<li><a href="LAB-SERVICES.html">Lab Services</a></li>
+			<li><a href="OUR-SPECIALITIES.html">Our Specialities</a></li>
+			<li><a href="OUR-SERVICES.html">Our Services</a></li>
+			<li><a onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Book   Appointment</a></li>
+			<li><a href="index.html">Home</a></li>
+			<img style="height:50px;width:100px;margin-left: 50px;margin-top: 2.2px;" src="images/PBCH-Logo.png">
+		</ul>
+	</div>
+
+		<div id="id01" class="modal" >
+
+
+  
+  <form class="modal-content animate" style="border-radius: 9px;">
+
+    <div class="container" style="border-radius: 9px;">
+          <h1>Appointment Form</h1>
+          <span style="margin-top: 136px;margin-right: 130px;" onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <label for="name"><b>Patient Name : </b></label>
+      <input type="text" placeholder="Enter Patient's Name" name="name" required>
+
+      <label for="email"><b>Email Id : </b></label>
+      <input type="Email" placeholder="Enter E-mail Id" name="email" required>
+
+        <label for="Contact No."><b>Contact No : </b></label>
+      <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+
+      <label for="Appointment type"><b>Appintment Type : </b></label>
+      <select for="Checkup" type="list">
+          <option value="Select Appointment Type">Select Appointment Type</option>
+          <option value="Dental">Dental</option>
+          <option value="ENT">ENT</option>
+          <option value="Gynecology and Obstetrics">Gynecology and Obstetrics</option>
+          <option value="General and Laparoscopic Surgeon">General and Laparoscopic Surgeon</option>
+          <option value="Medicine">Medicine</option>
+          <option value="Cardiology">Cardiology</option>
+          <option value="Neurosurgery">Neurosurgery</option>
+          <option value="Oral & Maxillofacial Surgery">Oral & Maxillofacial Surgery</option>
+          <option value="Orthopedics">Orthopedics</option>
+          <option value="Pediatrics and Neonatology">Pediatrics and Neonatology</option>
+          <option value="Physiotherapy">Physiotherapy</option>
+          <option value="Pathology">Pathology</option>
+          <option value="Plastic and Cosmetic Surgery">Plastic and Cosmetic Surgery</option>
+          <option value="Radiology">Radiology</option>
+          <option value="Urology">Urology</option>
+      </select>
+
+      <label for="Date"><b>Date : </b></label>
+      <input type="Date" placeholder="dd-mm-yyyy" name="date" required>
+        
+      <button type="submit"  onclick="alert('We Will Send You Timing in your Mobile by Message shortly....')">Take Appointment</button>
+    </div>
+
+  </form>
+</div>
+
+
+	<div class="contact-us-main">
+		<h1 style="font-family: verdana;font-size: 40px;color:#0a7ecc;">Address of the Hospital</h1>
+
+		<p style="font-size: 18px;font-family: verdana;text-align: justify;margin-bottom: 20px;">Palm Multispeciality Hospital</p>
+
+		<p style="font-size: 18px;font-family: verdana;text-align: justify;margin-bottom: 20px;">3<sup>rd</sup> Floor,PALM ARCADE,</p>
+
+		<p style="font-size: 18px;font-family: verdana;text-align: justify;margin-bottom: 20px;">New India Colony Road,</p>
+
+		<p style="font-size: 18px;font-family: verdana;text-align: justify;margin-bottom: 20px;">Nikol, Ahmedabad, Gujarat-382350.</p>
+
+		<p style="font-size: 18px;font-family: verdana;text-align: justify;margin-bottom: 10px;"><strong>For Registration and OPD Inquiry - </strong>09909005385 | 07922805500</p>
+
+		<p style="font-size: 18px;font-family: verdana;text-align: justify;margin-bottom: 10px;"><strong>For Emergency & Ambulance - </strong>108</p>
+
+		<p style="font-size: 18px;font-family: verdana;text-align: justify;margin-bottom: 20px;"><strong>For Career, Please send your CV - </strong>palmhospitalnikol@gmail.com</p>
+	</div>
+
+		<iframe style="margin-left: 85px;margin-right: 85px;height: 550;width: 1176;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3044.0610453611725!2d72.66235811442004!3d23.050369584938988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e872025e80169%3A0xb627065152617b37!2sPALM+HOSPITAL!5e1!3m2!1sen!2sin!4v1536944150819" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+	<div id="footer">
+		<p>&copy; Palm Multispeciality Hospital, New India Colony Road, Nikol(Ahmedabad) | Registration, OPD & Inquiry – 09909005385, 07922805500 | Emergency & Ambulance – 108 </p>
+	</div>	
+</body>
+</html>
